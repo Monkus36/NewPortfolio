@@ -1,0 +1,19 @@
+.hero-section {
+  background-image: url('images/background2.png');
+  background-size: cover; /* Scale proportionally to fill the space */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  height: 100vh; /* Full viewport height */
+  
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Ensure inline text is centered */
+  position: relative; /* Keeps the content relative to the hero-section */
+}
+
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
